@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Wallpapers · pixel.by.pixel.art</title>
+<meta name="description" content="AI-made pixel art phone wallpapers from @pixel.by.pixel.art. Tiny worlds for your lock screen.">
+<meta property="og:title" content="Pixel Wallpapers · pixel.by.pixel.art">
+<meta property="og:description" content="AI-made pixel art phone wallpapers. Tiny worlds for your lock screen.">
+<meta property="og:image" content="previews/w4_post6_campfire_desktop.png">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #100c24;
+    --bg-2: #1b1538;
+    --card: #211a44;
+    --line: #3a2f6e;
+    --text: #efeaff;
+    --muted: #a99fd0;
+    --yellow: #ffd65a;
+    --pink: #ff5078;
+    --cyan: #5adce6;
+    --shadow: #07051a;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.55 "Space Grotesk", system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+  /* a slow starfield behind everything */
+  body::before {
+    content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background-image:
+      radial-gradient(2px 2px at 12% 18%, #fff8 50%, transparent 51%),
+      radial-gradient(2px 2px at 68% 9%, #ffd65a88 50%, transparent 51%),
+      radial-gradient(2px 2px at 84% 42%, #fff6 50%, transparent 51%),
+      radial-gradient(2px 2px at 30% 64%, #fff5 50%, transparent 51%),
+      radial-gradient(2px 2px at 52% 88%, #5adce666 50%, transparent 51%),
+      radial-gradient(2px 2px at 92% 76%, #fff5 50%, transparent 51%),
+      radial-gradient(2px 2px at 6% 90%, #ffd65a66 50%, transparent 51%),
+      linear-gradient(180deg, #100c24 0%, #1b1240 55%, #100c24 100%);
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+  .pixel { font-family: "Silkscreen", monospace; letter-spacing: .02em; }
+
+  /* header */
+  header { padding: 40px 0 8px; text-align: center; }
+  .logo {
+    width: 88px; height: 88px; border-radius: 50%;
+    image-rendering: pixelated; border: 3px solid var(--line);
+    box-shadow: 0 0 0 6px var(--bg-2);
+  }
+  h1 { font-size: clamp(28px, 7vw, 48px); line-height: 1.1; margin: 18px 0 8px; color: var(--yellow);
+       text-shadow: 3px 3px 0 var(--shadow); }
+  .tagline { color: var(--muted); max-width: 520px; margin: 0 auto; }
+  .handle { display: inline-block; margin-top: 14px; color: var(--pink); text-decoration: none; font-weight: 700; }
+  .handle:hover { text-decoration: underline; }
+  .ai-note {
+    display: inline-flex; gap: 8px; align-items: center; margin-top: 16px;
+    padding: 6px 12px; border: 1px dashed var(--line); border-radius: 999px;
+    color: var(--muted); font-size: 13px;
+  }
+  .ai-note b { color: var(--cyan); font-weight: 500; }
+
+  /* buttons */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    font-family: "Silkscreen", monospace; font-size: 15px; text-decoration: none;
+    padding: 12px 18px; border: 0; cursor: pointer;
+    background: var(--pink); color: #fff;
+    box-shadow: 4px 4px 0 var(--shadow), inset -3px -3px 0 #c42d55, inset 3px 3px 0 #ff86a2;
+    transition: transform .08s ease, box-shadow .08s ease;
+    white-space: nowrap;
+  }
+  .btn:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--shadow), inset -3px -3px 0 #c42d55, inset 3px 3px 0 #ff86a2; }
+  .btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--shadow), inset -3px -3px 0 #c42d55, inset 3px 3px 0 #ff86a2; }
+  .btn.yellow { background: var(--yellow); color: #2a1a00;
+    box-shadow: 4px 4px 0 var(--shadow), inset -3px -3px 0 #d9a92a, inset 3px 3px 0 #ffe9a1; }
+  .btn.soon, .btn.soon:hover, .btn.soon:active {
+    background: var(--bg-2); color: var(--muted); cursor: default; transform: none;
+    box-shadow: 4px 4px 0 var(--shadow), inset 0 0 0 2px var(--line);
+  }
+  .btn:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+
+  /* bundle hero */
+  .bundle {
+    margin: 36px 0 12px; padding: 22px; border-radius: var(--radius);
+    background: linear-gradient(135deg, #2b1f5c, #211a44 60%);
+    border: 2px solid var(--line);
+    display: grid; gap: 22px; grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .bundle .fan { display: flex; justify-content: center; height: 250px; position: relative; }
+  .bundle .fan img { position: absolute; width: 112px; top: 10px; image-rendering: pixelated;
+                     border-radius: 14px; border: 3px solid #0a0718; box-shadow: 0 0 0 2px var(--line); }
+  .bundle .fan img:nth-child(1) { transform: translateX(-78px) rotate(-8deg); }
+  .bundle .fan img:nth-child(2) { transform: translateY(-8px); z-index: 2; }
+  .bundle .fan img:nth-child(3) { transform: translateX(78px) rotate(8deg); }
+  .badge { display: inline-block; font-size: 12px; padding: 3px 8px; background: var(--yellow); color: #2a1a00;
+           font-family: "Silkscreen", monospace; margin-bottom: 8px; }
+  .bundle h2 { margin: 0 0 6px; font-size: clamp(22px, 5vw, 30px); line-height: 1.15; }
+  .bundle p { margin: 0 0 16px; color: var(--muted); }
+  .price { font-family: "Silkscreen", monospace; font-size: 26px; color: var(--yellow); margin-right: 10px; }
+  .was { color: var(--muted); text-decoration: line-through; margin-right: 16px; }
+  .buyrow { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 0; }
+  @media (min-width: 720px) {
+    .bundle { grid-template-columns: 300px 1fr; padding: 28px 32px; }
+  }
+
+  /* packs */
+  .section-title { margin: 48px 0 6px; font-size: 20px; color: var(--cyan); }
+  .section-sub { margin: 0 0 18px; color: var(--muted); }
+  .pack {
+    margin: 0 0 22px; padding: 18px 0 18px; border-radius: var(--radius);
+    background: var(--card); border: 2px solid var(--line);
+  }
+  .pack-head { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding: 0 18px; }
+  .pack-head h3 { margin: 0; font-size: 19px; }
+  .pack-head .meta { color: var(--muted); font-size: 14px; }
+  .strip {
+    display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+    padding: 16px 18px 8px; scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+  }
+  .phone {
+    flex: 0 0 auto; width: 132px; scroll-snap-align: start;
+    background: none; border: 0; padding: 0; cursor: zoom-in; color: inherit; text-align: center;
+  }
+  .phone img {
+    display: block; width: 132px; aspect-ratio: 256 / 556; object-fit: cover;
+    image-rendering: pixelated; border-radius: 16px;
+    border: 3px solid #0a0718; box-shadow: 0 0 0 2px var(--line);
+    background: var(--bg-2);
+  }
+  .phone span { display: block; font-size: 13px; color: var(--muted); margin-top: 8px; }
+  .phone:hover img { box-shadow: 0 0 0 2px var(--yellow); }
+  .phone:focus-visible img { box-shadow: 0 0 0 3px var(--cyan); }
+  .strip[data-device="tablet"] .phone, .strip[data-device="tablet"] .phone img { width: 168px; }
+  .strip[data-device="tablet"] .phone img { aspect-ratio: 256 / 340; border-radius: 12px; }
+  .strip[data-device="desktop"] .phone, .strip[data-device="desktop"] .phone img { width: 256px; }
+  .strip[data-device="desktop"] .phone img { aspect-ratio: 16 / 9; border-radius: 6px; border-width: 6px 6px 10px; }
+  @media (min-width: 900px) {
+    .strip[data-device="phone"] { overflow: visible; display: grid; grid-template-columns: repeat(6, 1fr); }
+    .strip[data-device="phone"] .phone, .strip[data-device="phone"] .phone img { width: 100%; }
+    .strip[data-device="desktop"] { overflow: visible; display: grid; grid-template-columns: repeat(3, 1fr); }
+    .strip[data-device="desktop"] .phone, .strip[data-device="desktop"] .phone img { width: 100%; }
+  }
+
+  /* device switch */
+  .devices { display: inline-flex; margin: 14px 18px 0; padding: 3px; gap: 3px; background: var(--bg-2);
+             border: 1px solid var(--line); border-radius: 10px; }
+  .devices button { font: 500 14px "Space Grotesk", system-ui, sans-serif; color: var(--muted); background: none;
+                    border: 0; padding: 6px 12px; border-radius: 7px; cursor: pointer; }
+  .devices button[aria-pressed="true"] { background: var(--line); color: var(--text); }
+  .devices button:focus-visible { outline: 2px solid var(--cyan); outline-offset: 1px; }
+  .pay { display: block; width: 100%; font-size: 13px; color: var(--muted); margin-top: 8px; }
+
+  /* faq */
+  .faq { display: grid; gap: 12px; grid-template-columns: 1fr; margin-bottom: 40px; }
+  @media (min-width: 720px) { .faq { grid-template-columns: 1fr 1fr; } }
+  .faq div { background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+  .faq h4 { margin: 0 0 6px; font-size: 16px; color: var(--yellow); }
+  .faq p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  footer { border-top: 1px solid var(--line); padding: 24px 0 40px; text-align: center; color: var(--muted); font-size: 14px; }
+  footer a { color: var(--pink); margin: 0 8px; }
+
+  /* try-it-on viewer: the preview inside a device with a live lock screen */
+  dialog {
+    border: 0; padding: 0; background: transparent; max-width: 94vw; overflow: visible;
+  }
+  dialog::backdrop { background: #07051aeb; }
+  dialog .close { position: absolute; top: -14px; right: -14px; width: 36px; height: 36px; padding: 0; font-size: 18px; z-index: 3; }
+  .viewer-inner { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .mock { position: relative; overflow: hidden; background: #000; box-shadow: 0 0 0 2px var(--line), 0 20px 60px #0008; }
+  .mock img { display: block; width: 100%; height: 100%; object-fit: cover; image-rendering: pixelated; }
+  .mock[data-device="phone"]   { height: min(74vh, 640px); aspect-ratio: 256 / 556; border: 9px solid #0a0718; border-radius: 42px; }
+  .mock[data-device="tablet"]  { height: min(68vh, 620px); aspect-ratio: 256 / 340; border: 14px solid #0a0718; border-radius: 26px; max-width: 90vw; }
+  .mock[data-device="desktop"] { width: min(820px, 92vw); aspect-ratio: 16 / 9; border: 10px solid #0a0718; border-bottom-width: 16px; border-radius: 10px; }
+  .lock { position: absolute; left: 0; right: 0; text-align: center; color: #fff; text-shadow: 0 1px 12px #0007;
+          font-family: -apple-system, "SF Pro Display", "Helvetica Neue", system-ui, sans-serif; pointer-events: none; }
+  .lock .date { font-weight: 600; opacity: .92; }
+  .lock .time { font-weight: 700; letter-spacing: -.02em; line-height: 1; }
+  .mock[data-device="phone"] .lock { top: 7%; }
+  .mock[data-device="phone"] .date { font-size: clamp(12px, 2.1vh, 17px); }
+  .mock[data-device="phone"] .time { font-size: clamp(46px, 10vh, 86px); }
+  .mock[data-device="phone"]::before { content: ""; position: absolute; top: 12px; left: 50%; translate: -50% 0; z-index: 2;
+          width: 30%; height: 26px; border-radius: 20px; background: #000; }
+  .mock[data-device="tablet"] .lock { top: 9%; }
+  .mock[data-device="tablet"] .date { font-size: clamp(12px, 2vh, 18px); }
+  .mock[data-device="tablet"] .time { font-size: clamp(44px, 9vh, 92px); }
+  .mock[data-device="desktop"] .lock { top: 0; height: 22px; display: flex; justify-content: flex-end; align-items: center; gap: 10px;
+          padding: 0 12px; background: #0005; backdrop-filter: blur(8px); font-size: 12px; text-shadow: none; }
+  .mock[data-device="desktop"] .lock .time { font-size: 12px; font-weight: 600; }
+  .mock[data-device="desktop"]::after { content: ""; position: absolute; bottom: 8px; left: 50%; translate: -50% 0;
+          width: 42%; height: 36px; border-radius: 12px; background: #ffffff2e; backdrop-filter: blur(10px); box-shadow: inset 0 0 0 1px #fff3; }
+  .viewer-title { margin: 0; color: var(--text); text-align: center; }
+  .viewer-note { margin: -6px 0 0; font-size: 13px; color: var(--muted); text-align: center; }
+  .viewer-inner .devices { margin: 0; }
+
+  /* free sample */
+  .free { margin: 22px 0 0; padding: 20px; border-radius: var(--radius); border: 2px dashed var(--cyan);
+          background: #5adce60d; display: grid; gap: 18px; grid-template-columns: 1fr; align-items: center; }
+  .free .thumb { width: 110px; justify-self: center; cursor: zoom-in; background: none; border: 0; padding: 0; }
+  .free .thumb img { display: block; width: 110px; image-rendering: pixelated; border-radius: 14px;
+                     border: 3px solid #0a0718; box-shadow: 0 0 0 2px var(--line); }
+  .free h2 { margin: 0 0 4px; font-size: 20px; color: var(--cyan); }
+  .free p { margin: 0 0 14px; color: var(--muted); }
+  .free .dl { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn.ghost { background: var(--bg-2); color: var(--text);
+               box-shadow: 4px 4px 0 var(--shadow), inset 0 0 0 2px var(--cyan); font-size: 13px; padding: 10px 14px; }
+  @media (min-width: 720px) { .free { grid-template-columns: 130px 1fr; padding: 22px 28px; } }
+
+  /* demo / test mode banner */
+  .modebar { position: sticky; top: 0; z-index: 5; text-align: center; font-size: 13px; padding: 7px 12px;
+             background: var(--yellow); color: #2a1a00; }
+
+  /* checkout panel */
+  dialog.checkout { width: min(420px, calc(100vw - 32px)); max-width: none; overflow: visible;
+                    background: var(--card); color: var(--text); border: 2px solid var(--line);
+                    border-radius: var(--radius); padding: 26px 22px 20px; }
+  .co-kicker { margin: 0; font-size: 12px; color: var(--cyan); }
+  .checkout h2 { margin: 6px 0 2px; font-size: 22px; line-height: 1.2; }
+  .co-price { margin: 0 0 10px; font-family: "Silkscreen", monospace; font-size: 26px; color: var(--yellow); }
+  .co-what { margin: 0 0 18px; color: var(--muted); font-size: 15px; }
+  [hidden] { display: none !important; }
+  dialog.checkout { text-align: left; }
+  .co-methods { display: grid; gap: 12px; }
+  .co-methods .btn { width: 100%; white-space: normal; text-align: center; line-height: 1.3; }
+  .co-methods .btn:disabled { opacity: .6; cursor: progress; }
+  .co-paypal { min-height: 45px; }
+  .co-gumroad { text-align: center; font-size: 14px; color: var(--muted); }
+  .co-msg { min-height: 1.4em; margin: 12px 0 0; font-size: 14px; color: var(--yellow); }
+  .co-fine { margin: 6px 0 0; font-size: 12.5px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img class="logo" src="avatar.png" alt="pixel.by.pixel.art moon logo" width="88" height="88">
+    <h1 class="pixel">Pixel Wallpapers</h1>
+    <p class="tagline">Tiny worlds for your lock screen. Every scene from the weekly drops, sized for your phone.</p>
+    <a class="handle" id="ig" href="#">@pixel.by.pixel.art</a><br>
+    <span class="ai-note">✦ <span><b>Made with AI</b> · pixel art generated by AI, picked and prepared by us</span></span>
+  </header>
+
+  <section class="bundle" id="bundle" aria-labelledby="bundle-title"></section>
+
+  <section class="free" id="free" aria-labelledby="free-title" hidden></section>
+
+  <h2 class="section-title pixel">Weekly packs</h2>
+  <p class="section-sub">Six scenes each, sized for phone, tablet and desktop. Tap any scene to try it on your screen.</p>
+  <div id="packs"></div>
+
+  <h2 class="section-title pixel">Good to know</h2>
+  <div class="faq">
+    <div><h4>What do I get?</h4><p>Every scene in four sizes: phone (1280×2780), tablet (2048×2720), desktop (3840×2160, 4K) and the original square (1080×1080). Instant download after checkout.</p></div>
+    <div><h4>Will it fit my device?</h4><p>Yes. iPhone, Android, iPad, Android tablets, Mac and PC. Your device crops to fit, and on phones the sky at the top leaves room for the clock.</p></div>
+    <div><h4>How do I pay?</h4><p>Secure checkout with card, Apple Pay or PayPal. Right after paying you get your download, and the link is emailed to you so you can download again any time.</p></div>
+    <div><h4>Can I try before buying?</h4><p>Yes. Tap any scene to see it on a phone, tablet or desktop screen, and download the free Aurora wallpaper to try a full-quality one on your own device.</p></div>
+    <div><h4>How is it made?</h4><p>The scenes are AI-generated pixel art. We pick the ideas, check every image, and prepare them as wallpapers. That's why every post says "Made with AI."</p></div>
+    <div><h4>Can I share them?</h4><p>They're for your own devices and prints for your own home. Please don't resell or share the files. Previews here are watermarked.</p></div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <a id="ig2" href="#">Instagram</a> · <a id="th" href="#">Threads</a>
+    <p>New scenes every Monday. Secure checkout with card, Apple Pay or PayPal.</p>
+  </div>
+</footer>
+
+<dialog id="viewer" aria-label="Try the wallpaper on a screen">
+  <button class="btn close" type="button" aria-label="Close preview">✕</button>
+  <div class="viewer-inner">
+    <div class="mock" data-device="phone">
+      <img alt="">
+      <div class="lock" aria-hidden="true"><div class="date"></div><div class="time"></div></div>
+    </div>
+    <p class="viewer-title pixel"></p>
+    <div class="devices" role="group" aria-label="Try it on">
+      <button type="button" data-view="phone" aria-pressed="true">Phone</button>
+      <button type="button" data-view="tablet" aria-pressed="false">Tablet</button>
+      <button type="button" data-view="desktop" aria-pressed="false">Desktop</button>
+    </div>
+    <p class="viewer-note">Watermarked preview. Your download is full resolution with no watermark.</p>
+  </div>
+</dialog>
+
+<dialog id="checkout" class="checkout" aria-labelledby="co-title">
+  <button class="btn close" type="button" aria-label="Close checkout">✕</button>
+  <p class="co-kicker pixel">Checkout</p>
+  <h2 id="co-title"></h2>
+  <p class="co-price"></p>
+  <p class="co-what"></p>
+  <div class="co-methods">
+    <button class="btn co-card" type="button" hidden>Pay with card</button>
+    <div class="co-paypal" hidden></div>
+    <button class="btn yellow co-demo" type="button" hidden>Complete demo purchase</button>
+    <a class="co-gumroad" hidden target="_blank" rel="noopener">Prefer Gumroad? Buy it there instead</a>
+  </div>
+  <p class="co-msg" role="status" aria-live="polite"></p>
+  <p class="co-fine">Card and Apple Pay through Stripe, or PayPal. After paying you get a private library link to download your wallpapers any time.</p>
+</dialog>
+
+<script>
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  let S, CFG, fmt;
+
+  async function boot() {
+    [S, CFG] = await Promise.all([
+      fetch("catalog.json").then(r => r.json()),
+      fetch("/api/config").then(r => r.ok ? r.json() : null).catch(() => null),
+    ]);
+    fmt = c => new Intl.NumberFormat("en-US", { style: "currency", currency: S.currency.toUpperCase(),
+      minimumFractionDigits: c % 100 ? 2 : 0 }).format(c / 100);
+    const canSell = CFG && (CFG.stripeKey || CFG.paypalClientId || CFG.mode === "demo");
+
+    if (CFG && CFG.mode !== "live") {
+      const bar = document.createElement("div");
+      bar.className = "modebar pixel";
+      bar.textContent = CFG.mode === "demo" ? "Demo mode · no real payments" : "Test mode · use test cards / PayPal sandbox";
+      document.body.prepend(bar);
+    }
+    for (const id of ["ig", "ig2"]) document.getElementById(id).href = S.instagram;
+    document.getElementById("th").href = S.threads;
+
+    const buy = (item, label) => canSell
+      ? `<button class="btn" type="button" data-buy="${esc(item.id)}">${label}</button>`
+      : item.gumroad                                   // static host: that product's own Gumroad checkout
+        ? `<a class="btn" href="${esc(item.gumroad)}" target="_blank" rel="noopener">${label}</a>`
+        : `<span class="btn soon" aria-disabled="true">Coming soon</span>`;
+
+    const b = S.bundle;
+    document.getElementById("bundle").innerHTML = `
+      <div class="fan">${b.covers.map(c => `<img src="previews/${esc(c)}_phone.png" alt="" width="112">`).join("")}</div>
+      <div>
+        <span class="badge">Best value</span>
+        <h2 id="bundle-title">${esc(b.name)}</h2>
+        <p>${esc(b.blurb)}</p>
+        <div class="buyrow">
+          <span class="price">${fmt(b.price)}</span>${b.was ? `<span class="was">${fmt(b.was)}</span>` : ""}
+          ${buy(b, `Get all ${S.packs.length * 6}`)}
+          <span class="pay">Phone, tablet & desktop · card or PayPal · new weeks included</span>
+        </div>
+      </div>`;
+
+    const DEVICES = [["phone", "Phone"], ["tablet", "Tablet"], ["desktop", "Desktop"]];
+    const tiles = (p, dev) => p.scenes.map(([file, title]) => `
+      <button class="phone" type="button" data-file="${esc(file)}" data-device="${dev}" data-title="${esc(title)}">
+        <img src="previews/${esc(file)}_${dev}.png" alt="${esc(title)} ${dev} wallpaper preview" loading="lazy">
+        <span>${esc(title)}</span>
+      </button>`).join("");
+
+    const packsEl = document.getElementById("packs");
+    packsEl.innerHTML = S.packs.map((p, i) => `
+      <article class="pack" id="${esc(p.id)}">
+        <div class="pack-head">
+          <div><h3>${esc(p.name)}</h3><div class="meta">6 scenes · phone, tablet & desktop + square originals</div></div>
+          <div class="buyrow"><span class="price">${fmt(p.price)}</span>${buy(p, "Buy pack")}</div>
+        </div>
+        <div class="devices" role="group" aria-label="Preview device">
+          ${DEVICES.map(([d, label]) => `<button type="button" data-pack="${i}" data-device="${d}" aria-pressed="${d === "phone"}">${label}</button>`).join("")}
+        </div>
+        <div class="strip" data-device="phone">${tiles(p, "phone")}</div>
+      </article>`).join("");
+
+    packsEl.addEventListener("click", e => {
+      const sw = e.target.closest(".devices button");
+      if (!sw) return;
+      const pack = sw.closest(".pack"), dev = sw.dataset.device;
+      pack.querySelectorAll(".devices button").forEach(x => x.setAttribute("aria-pressed", x === sw));
+      const strip = pack.querySelector(".strip");
+      strip.dataset.device = dev;
+      strip.innerHTML = tiles(S.packs[+sw.dataset.pack], dev);
+      strip.scrollLeft = 0;
+    });
+
+    // ---- try it on: preview inside a device with a live lock-screen clock
+    const viewer = document.getElementById("viewer");
+    const mock = viewer.querySelector(".mock");
+    let viewing = null, clockTimer;
+    const tick = () => {
+      const now = new Date();
+      viewer.querySelector(".time").textContent = now.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }).replace(/\s?[AP]M$/i, "");
+      viewer.querySelector(".date").textContent = now.toLocaleDateString([], { weekday: "long", month: "long", day: "numeric" });
+    };
+    function show(dev) {
+      mock.dataset.device = dev;
+      const img = mock.querySelector("img");
+      img.src = `previews/${viewing.file}_${dev}.png`;
+      img.alt = `${viewing.title} on a ${dev} screen`;
+      viewer.querySelectorAll("[data-view]").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === dev));
+    }
+    function openViewer(file, title, dev) {
+      viewing = { file, title };
+      viewer.querySelector(".viewer-title").textContent = title;
+      show(dev || "phone");
+      tick(); clockTimer = setInterval(tick, 10000);
+      viewer.showModal();
+    }
+    viewer.addEventListener("close", () => clearInterval(clockTimer));
+    viewer.addEventListener("click", e => {
+      const b = e.target.closest("[data-view]");
+      if (b) show(b.dataset.view);
+      else if (e.target === viewer || e.target.closest(".close")) viewer.close();
+    });
+    packsEl.addEventListener("click", e => {
+      const t = e.target.closest(".phone");
+      if (t) openViewer(t.dataset.file, t.dataset.title, t.dataset.device);
+    });
+
+    // ---- free sample: per-device downloads from the store server, or one public zip on a static host
+    const f = CFG ? S.freebie : S.freeSample;
+    if (f) {
+      const free = document.getElementById("free");
+      const links = CFG
+        ? ["phone", "tablet", "desktop"].map(d => `<a class="btn ghost" href="/api/free/${d}" download>${d[0].toUpperCase() + d.slice(1)}</a>`).join("")
+        : `<a class="btn ghost" href="${esc(f.file)}" download>Download free (phone, tablet &amp; desktop)</a>`;
+      free.innerHTML = `
+        <button class="thumb" type="button" aria-label="Try ${esc(f.title)} on a screen">
+          <img src="previews/${esc(f.scene)}_phone.png" alt="${esc(f.title)} wallpaper" width="110">
+        </button>
+        <div>
+          <h2 id="free-title" class="pixel">Try one free</h2>
+          <p>Try one before you buy: our ${esc(f.title)} scene, free and full quality, for phone, tablet and desktop. No email, no checkout.</p>
+          <div class="dl">${links}</div>
+        </div>`;
+      free.querySelector(".thumb").addEventListener("click", () => openViewer(f.scene, f.title, "phone"));
+      free.hidden = false;
+    }
+
+    document.addEventListener("click", e => {
+      const btn = e.target.closest("[data-buy]");
+      if (btn) openCheckout(btn.dataset.buy);
+    });
+  }
+
+  // ------------------------------------------------------------ checkout
+  const co = document.getElementById("checkout");
+  const msg = t => co.querySelector(".co-msg").textContent = t || "";
+  const post = (url, body) => fetch(url, { method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body || {}) }).then(async r => { const d = await r.json().catch(() => ({})); if (!r.ok) throw new Error(d.error || "Something went wrong"); return d; });
+  const toLibrary = token => location.href = "library.html?token=" + encodeURIComponent(token);
+  let paypalReady;
+
+  function product(id) { return id === S.bundle.id ? { ...S.bundle, bundle: true } : S.packs.find(p => p.id === id); }
+
+  function openCheckout(id) {
+    const p = product(id);
+    co.dataset.product = id;
+    co.querySelector("#co-title").textContent = p.name;
+    co.querySelector(".co-price").textContent = fmt(p.price);
+    co.querySelector(".co-what").textContent = p.bundle
+      ? `Every scene from all ${S.packs.length} weeks for phone, tablet and desktop, plus every future week, delivered to the same library link.`
+      : "6 scenes for phone, tablet and desktop, plus the square originals.";
+    co.querySelector(".co-card").hidden = !CFG.stripeKey;
+    co.querySelector(".co-demo").hidden = CFG.mode !== "demo";
+    const g = co.querySelector(".co-gumroad");
+    g.hidden = !p.gumroad; if (p.gumroad) g.href = p.gumroad;
+    msg("");
+    const pp = co.querySelector(".co-paypal");
+    pp.hidden = !CFG.paypalClientId; pp.innerHTML = "";
+    co.showModal();
+    if (CFG.paypalClientId) renderPayPal(pp, id);
+  }
+
+  co.querySelector(".close").addEventListener("click", () => co.close());
+  co.addEventListener("click", e => { if (e.target === co) co.close(); });
+
+  co.querySelector(".co-card").addEventListener("click", async e => {
+    e.target.disabled = true; msg("Opening secure card checkout…");
+    try { const { url } = await post("/api/checkout/stripe", { productId: co.dataset.product }); location.href = url; }
+    catch (err) { msg(err.message); e.target.disabled = false; }
+  });
+
+  co.querySelector(".co-demo").addEventListener("click", async e => {
+    e.target.disabled = true; msg("Pretending to take payment…");
+    try { const { token } = await post("/api/checkout/demo", { productId: co.dataset.product }); toLibrary(token); }
+    catch (err) { msg(err.message); e.target.disabled = false; }
+  });
+
+  function renderPayPal(el, productId) {
+    paypalReady ||= new Promise((ok, bad) => {
+      const s = document.createElement("script");
+      s.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(CFG.paypalClientId)}&currency=${S.currency.toUpperCase()}&intent=capture&disable-funding=credit,card`;
+      s.onload = ok; s.onerror = () => bad(new Error("PayPal couldn't load"));
+      document.head.append(s);
+    });
+    paypalReady.then(() => paypal.Buttons({
+      style: { layout: "horizontal", color: "gold", shape: "rect", label: "paypal", tagline: false, height: 45 },
+      createOrder: () => post("/api/checkout/paypal", { productId }).then(d => d.id),
+      onApprove: data => { msg("Confirming your payment…"); return post(`/api/checkout/paypal/${encodeURIComponent(data.orderID)}/capture`).then(d => toLibrary(d.token)); },
+      onError: err => msg(err?.message || "PayPal had a problem. Nothing was charged; please try again."),
+      onCancel: () => msg("PayPal checkout cancelled."),
+    }).render(el)).catch(err => msg(err.message));
+  }
+
+  boot();
+</script>
+</body>
+</html>

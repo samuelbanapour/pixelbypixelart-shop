@@ -1,0 +1,166 @@
+{
+  "currency": "usd",
+  "instagram": "https://www.instagram.com/pixel.by.pixel.art/",
+  "threads": "https://www.threads.net/@pixel.by.pixel.art",
+  "gumroadStore": "https://banapour.gumroad.com/",
+  "freebie": {
+    "week": "week2",
+    "scene": "w2_post1_aurora",
+    "title": "Aurora",
+    "blurb": "Try one before you buy: our Aurora scene, free, full quality, for phone, tablet and desktop."
+  },
+  "freeSample": {
+    "scene": "w4_post6_campfire",
+    "title": "Campfire",
+    "file": "free/pixel.by.pixel.art_free_campfire.zip"
+  },
+  "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
+  "bundle": {
+    "id": "bundle",
+    "name": "The Complete Collection",
+    "blurb": "Every scene from every weekly drop, for phone, tablet and desktop, plus the square originals. Your library link keeps getting new weeks as they come out.",
+    "price": 800,
+    "was": 1200,
+    "zip": "all_weeks_bundle.zip",
+    "covers": [
+      "w4_post6_campfire",
+      "w2_post1_aurora",
+      "w3_post1_mushroom"
+    ],
+    "gumroad": "https://banapour.gumroad.com/l/complete-collection"
+  },
+  "packs": [
+    {
+      "id": "week1",
+      "name": "Week 1 · Night Classics",
+      "price": 300,
+      "zip": "week1_pack.zip",
+      "scenes": [
+        [
+          "post1_sunrise",
+          "Sunrise Mountains"
+        ],
+        [
+          "post2_desert",
+          "Desert Night"
+        ],
+        [
+          "post3_ocean",
+          "Moonlit Sail"
+        ],
+        [
+          "post4_forest",
+          "Firefly Forest"
+        ],
+        [
+          "post5_city",
+          "City Lights"
+        ],
+        [
+          "post6_cabin",
+          "Snowy Cabin"
+        ]
+      ],
+      "gumroad": "https://banapour.gumroad.com/l/week-1-night-classics"
+    },
+    {
+      "id": "week2",
+      "name": "Week 2 · Far Horizons",
+      "price": 300,
+      "zip": "week2_pack.zip",
+      "scenes": [
+        [
+          "w2_post1_aurora",
+          "Aurora"
+        ],
+        [
+          "w2_post2_beach",
+          "Beach Sunset"
+        ],
+        [
+          "w2_post3_planet",
+          "Ringed Planet"
+        ],
+        [
+          "w2_post4_rain",
+          "Neon Rain"
+        ],
+        [
+          "w2_post5_autumn",
+          "Autumn Hills"
+        ],
+        [
+          "w2_post6_lighthouse",
+          "Lighthouse"
+        ]
+      ],
+      "gumroad": "https://banapour.gumroad.com/l/week-2-far-horizons"
+    },
+    {
+      "id": "week3",
+      "name": "Week 3 · Cozy Season",
+      "price": 300,
+      "zip": "week3_pack.zip",
+      "scenes": [
+        [
+          "w3_post1_mushroom",
+          "Mushroom Forest"
+        ],
+        [
+          "w3_post2_station",
+          "Dusk Station"
+        ],
+        [
+          "w3_post3_koi",
+          "Koi Pond"
+        ],
+        [
+          "w3_post4_cafe",
+          "Rainy Café"
+        ],
+        [
+          "w3_post5_pumpkins",
+          "Pumpkin Patch"
+        ],
+        [
+          "w3_post6_islands",
+          "Floating Islands"
+        ]
+      ],
+      "gumroad": "https://banapour.gumroad.com/l/week-3-cozy-season"
+    },
+    {
+      "id": "week4",
+      "name": "Week 4 · Morning to Midnight",
+      "price": 300,
+      "zip": "week4_pack.zip",
+      "scenes": [
+        [
+          "w4_post1_village",
+          "Mountain Village"
+        ],
+        [
+          "w4_post2_windmill",
+          "Windmill Harvest"
+        ],
+        [
+          "w4_post3_reef",
+          "Coral Reef"
+        ],
+        [
+          "w4_post4_peak",
+          "Snowy Peak"
+        ],
+        [
+          "w4_post5_castle",
+          "Cliff Castle"
+        ],
+        [
+          "w4_post6_campfire",
+          "Campfire"
+        ]
+      ],
+      "gumroad": "https://banapour.gumroad.com/l/week-4-morning-to-midnight"
+    }
+  ]
+}
