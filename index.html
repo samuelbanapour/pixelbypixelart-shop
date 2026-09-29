@@ -337,7 +337,7 @@
     const buy = (item, label) => canSell
       ? `<button class="btn" type="button" data-buy="${esc(item.id)}">${label}</button>`
       : item.gumroad                                   // static host: that product's own Gumroad checkout
-        ? `<a class="btn" href="${esc(item.gumroad)}" target="_blank" rel="noopener">${label}</a>`
+        ? `<a class="btn" href="${esc(item.gumroad)}?wanted=true">${label}</a>`   // straight to Gumroad checkout, same tab
         : `<span class="btn soon" aria-disabled="true">Coming soon</span>`;
 
     const b = S.bundle;
