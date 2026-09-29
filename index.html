@@ -266,7 +266,7 @@
     <div><h4>What do I get?</h4><p>Every scene in four sizes: phone (1280×2780), tablet (2048×2720), desktop (3840×2160, 4K) and the original square (1080×1080). Instant download after checkout.</p></div>
     <div><h4>Will it fit my device?</h4><p>Yes. iPhone, Android, iPad, Android tablets, Mac and PC. Your device crops to fit, and on phones the sky at the top leaves room for the clock.</p></div>
     <div><h4>How do I pay?</h4><p>Secure checkout with card, Apple Pay or PayPal. Right after paying you get your download, and the link is emailed to you so you can download again any time.</p></div>
-    <div><h4>Can I try before buying?</h4><p>Yes. Tap any scene to see it on a phone, tablet or desktop screen, and download the free Aurora wallpaper to try a full-quality one on your own device.</p></div>
+    <div><h4>Can I try before buying?</h4><p>Yes. Tap any scene to see it on a phone, tablet or desktop screen, and download today's free wallpaper (a different scene every day) to try a full-quality one on your own device.</p></div>
     <div><h4>How is it made?</h4><p>The scenes are AI-generated pixel art. We pick the ideas, check every image, and prepare them as wallpapers. That's why every post says "Made with AI."</p></div>
     <div><h4>Can I share them?</h4><p>They're for your own devices and prints for your own home. Please don't resell or share the files. Previews here are watermarked.</p></div>
   </div>
@@ -428,11 +428,11 @@
         : `<a class="btn ghost" href="${esc(f.file)}" download>Download free</a>`;
       free.innerHTML = `
         <button class="thumb" type="button" aria-label="Try ${esc(f.title)} on a screen">
-          <img src="${CFG ? `previews/${esc(f.scene)}_phone.png` : "free/thumb.png"}" alt="${esc(f.title)} wallpaper" width="110">
+          <img src="${CFG ? `previews/${esc(f.scene)}_phone.png` : `free/thumb.png?${encodeURIComponent(f.scene)}`}" alt="${esc(f.title)} wallpaper" width="110">
         </button>
         <div>
-          <h2 id="free-title" class="pixel">Try one free</h2>
-          <p>Try one before you buy: our ${esc(f.title)} scene, free and full quality, for phone, tablet and desktop. No email, no checkout.</p>
+          <h2 id="free-title" class="pixel">Today's free wallpaper</h2>
+          <p>A different scene is free every day. Today it's ${esc(f.title)}, full quality, for phone, tablet and desktop. No email, no checkout.</p>
           <div class="dl">${links}</div>
         </div>`;
       free.querySelector(".thumb").addEventListener("click", () => openViewer(f.scene, f.title, "phone"));

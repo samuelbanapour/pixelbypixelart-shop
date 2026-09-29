@@ -4,15 +4,15 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week2",
-    "scene": "w2_post1_aurora",
-    "title": "Aurora",
-    "blurb": "Try one before you buy: our Aurora scene, free, full quality, for phone, tablet and desktop."
+    "week": "week1",
+    "scene": "post2_desert",
+    "title": "Desert Night",
+    "blurb": "Try one before you buy: today's Desert Night scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w4_post6_campfire",
-    "title": "Campfire",
-    "file": "free/pixel.by.pixel.art_free_campfire.zip"
+    "scene": "post2_desert",
+    "title": "Desert Night",
+    "file": "free/pixel.by.pixel.art_free_desert_night.zip"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
