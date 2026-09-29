@@ -419,13 +419,12 @@
       if (t) openViewer(t.dataset.file, t.dataset.title, t.dataset.device);
     });
 
-    // ---- free sample: per-device downloads from the store server, or one public zip on a static host
+    // ---- free sample: one image per device, from the store server or from free/ on a static host
     const f = CFG ? S.freebie : S.freeSample;
-    if (f) {
+    if (f && (CFG || f.files)) {
       const free = document.getElementById("free");
-      const links = CFG
-        ? ["phone", "tablet", "desktop"].map(d => `<a class="btn ghost" href="/api/free/${d}" download>${d[0].toUpperCase() + d.slice(1)}</a>`).join("")
-        : `<a class="btn ghost" href="${esc(f.file)}" download>Download free</a>`;
+      const links = ["phone", "tablet", "desktop"].map(d =>
+        `<a class="btn ghost" href="${CFG ? `/api/free/${d}` : esc(f.files[d])}" download>${d[0].toUpperCase() + d.slice(1)}</a>`).join("");
       free.innerHTML = `
         <button class="thumb" type="button" aria-label="Try ${esc(f.title)} on a screen">
           <img src="${CFG ? `previews/${esc(f.scene)}_phone.png` : `free/thumb.png?${encodeURIComponent(f.scene)}`}" alt="${esc(f.title)} wallpaper" width="110">
