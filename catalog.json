@@ -12,7 +12,11 @@
   "freeSample": {
     "scene": "w3_post6_islands",
     "title": "Floating Islands",
-    "file": "free/pixel.by.pixel.art_free_floating_islands.zip",
+    "files": {
+      "phone": "free/pixel.by.pixel.art_floating_islands_phone.png",
+      "tablet": "free/pixel.by.pixel.art_floating_islands_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_floating_islands_desktop.png"
+    },
     "day": "2026-09-29"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
