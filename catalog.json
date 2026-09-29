@@ -18,7 +18,7 @@
   "bundle": {
     "id": "bundle",
     "name": "The Complete Collection",
-    "blurb": "Every scene from every weekly drop, for phone, tablet and desktop, plus the square originals. Your library link keeps getting new weeks as they come out.",
+    "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
     "was": 1200,
     "zip": "all_weeks_bundle.zip",
@@ -32,7 +32,7 @@
   "packs": [
     {
       "id": "week1",
-      "name": "Week 1 · Night Classics",
+      "name": "Night Classics",
       "price": 300,
       "zip": "week1_pack.zip",
       "scenes": [
@@ -65,7 +65,7 @@
     },
     {
       "id": "week2",
-      "name": "Week 2 · Far Horizons",
+      "name": "Far Horizons",
       "price": 300,
       "zip": "week2_pack.zip",
       "scenes": [
@@ -98,7 +98,7 @@
     },
     {
       "id": "week3",
-      "name": "Week 3 · Cozy Season",
+      "name": "Cozy Season",
       "price": 300,
       "zip": "week3_pack.zip",
       "scenes": [
@@ -131,7 +131,7 @@
     },
     {
       "id": "week4",
-      "name": "Week 4 · Morning to Midnight",
+      "name": "Morning to Midnight",
       "price": 300,
       "zip": "week4_pack.zip",
       "scenes": [
