@@ -1,0 +1,34 @@
+name: Free wallpaper of the day
+on:
+  schedule:
+    - cron: "5 13 * * *"   # 6:05am Pacific (daylight time), 5:05am in winter
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: free-wallpaper
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Los_Angeles
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unlock the pool (stays on the runner, never committed)
+        env:
+          FREE_POOL_KEY: ${{ secrets.FREE_POOL_KEY }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/pool"
+          printf '%s' "$FREE_POOL_KEY" > "$RUNNER_TEMP/key"
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -in free-pool.enc -pass "file:$RUNNER_TEMP/key" \
+            | tar -xz -C "$RUNNER_TEMP/pool"
+          rm "$RUNNER_TEMP/key"
+      - name: Pick today's scene
+        run: POOL="$RUNNER_TEMP/pool" python3 .github/rotate_free.py
+      - name: Publish
+        run: |
+          git config user.name "free-wallpaper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A free catalog.json
+          if git diff --cached --quiet; then echo "No change."; exit 0; fi
+          git commit -q -m "Free wallpaper of the day: $(python3 -c 'import json;print(json.load(open("catalog.json"))["freeSample"]["title"])')"
+          git push -q
