@@ -12,7 +12,8 @@ cat = json.load(open("catalog.json"))
 today = datetime.date.today()
 current = (cat.get("freeSample") or {}).get("scene")
 if (cat.get("freeSample") or {}).get("day") == today.isoformat():
-    raise SystemExit(f"already picked today: {cat['freeSample']['title']}")   # reruns never skip ahead
+    print(f"already picked today: {cat['freeSample']['title']}")   # reruns never skip ahead
+    raise SystemExit(0)
 
 n = len(scenes)
 cycle, i = divmod(today.toordinal(), n)
