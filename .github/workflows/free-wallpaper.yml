@@ -1,7 +1,12 @@
 name: Free wallpaper of the day
 on:
   schedule:
-    - cron: "5 13 * * *"   # 6:05am Pacific (daylight time), 5:05am in winter
+    # GitHub may delay or skip scheduled runs, so try several times a day; after the
+    # first success the rest find today's scene already picked and change nothing.
+    - cron: "17 13 * * *"   # ~6:17am Pacific (daylight time)
+    - cron: "41 15 * * *"   # ~8:41am
+    - cron: "23 19 * * *"   # ~12:23pm
+    - cron: "53 1 * * *"    # ~6:53pm (last chance for the day)
   workflow_dispatch:
 permissions:
   contents: write
