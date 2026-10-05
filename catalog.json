@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 1200,
+    "was": 1500,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -166,6 +166,39 @@
         ]
       ],
       "gumroad": "https://pixelbypixelart.gumroad.com/l/week-4-morning-to-midnight"
+    },
+    {
+      "id": "week5",
+      "name": "Haunted Hollow",
+      "price": 300,
+      "zip": "week5_pack.zip",
+      "scenes": [
+        [
+          "w5_post1_witchcottage",
+          "Witch's Cottage"
+        ],
+        [
+          "w5_post2_hauntedhouse",
+          "Haunted House"
+        ],
+        [
+          "w5_post3_scarecrow",
+          "Scarecrow Field"
+        ],
+        [
+          "w5_post4_candyshop",
+          "Candy Shop"
+        ],
+        [
+          "w5_post5_porch",
+          "Pumpkin Porch"
+        ],
+        [
+          "w5_post6_graveyard",
+          "Foggy Graveyard"
+        ]
+      ],
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/haunted-hollow"
     }
   ]
 }
