@@ -217,9 +217,36 @@
   .free p { margin: 0 0 14px; color: var(--muted); }
   .free .dl { display: flex; flex-wrap: wrap; gap: 10px; }
   .free .dl .btn { max-width: 100%; white-space: normal; text-align: center; }
+  .free .upsell { margin: 16px 0 10px; color: var(--text); }
+  .free .upsell a { color: var(--yellow); }
   .btn.ghost { background: var(--bg-2); color: var(--text);
                box-shadow: 4px 4px 0 var(--shadow), inset 0 0 0 2px var(--cyan); font-size: 13px; padding: 10px 14px; }
   @media (min-width: 720px) { .free { grid-template-columns: 130px 1fr; padding: 22px 28px; } }
+
+  /* navbar */
+  .nav { position: sticky; top: 0; z-index: 6; background: #100c24ee; backdrop-filter: blur(8px);
+         border-bottom: 1px solid var(--line); }
+  .nav .wrap { display: flex; align-items: center; gap: 14px; height: 52px; }
+  .nav .brand { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);
+                font-family: "Silkscreen", monospace; font-size: 14px; white-space: nowrap; }
+  .nav .brand img { width: 28px; height: 28px; border-radius: 50%; }
+  .nav .links { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; scrollbar-width: none; }
+  .nav .links::-webkit-scrollbar { display: none; }
+  .nav .links a { color: var(--muted); text-decoration: none; font-size: 14px; padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
+  .nav .links a:hover, .nav .links a:focus-visible { color: var(--text); background: var(--bg-2); }
+  .nav .cta { flex: none; color: #2a1a00; background: var(--yellow); text-decoration: none; font-size: 14px;
+              font-weight: 600; padding: 6px 12px; border-radius: 8px; white-space: nowrap; }
+  @media (max-width: 560px) { .nav .brand span { display: none; } .nav .wrap { gap: 8px; } .nav .links a { padding: 6px 7px; } }
+  [id] { scroll-margin-top: 64px; }
+  .season-title { margin: 30px 0 4px; font-size: 16px; color: var(--yellow); }
+  .season-title:first-child { margin-top: 6px; }
+
+  /* subscribe / next drop */
+  .subscribe { margin: 28px 0 0; padding: 20px; border-radius: var(--radius); border: 2px solid var(--line);
+               background: var(--card); text-align: center; }
+  .subscribe h2 { margin: 0 0 4px; font-size: 20px; color: var(--yellow); }
+  .subscribe p { margin: 0 0 14px; color: var(--muted); }
+  .subscribe .next { color: var(--text); }
 
   /* demo / test mode banner */
   .modebar { position: sticky; top: 0; z-index: 5; text-align: center; font-size: 13px; padding: 7px 12px;
@@ -245,7 +272,19 @@
 </style>
 </head>
 <body>
-<div class="wrap">
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="avatar.png" alt="" width="28" height="28"><span>pixel.by.pixel.art</span></a>
+    <div class="links">
+      <a href="#free">Free today</a>
+      <a href="#collections">Collections</a>
+      <a href="#bundle">Complete set</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a class="cta" href="#subscribe">Subscribe</a>
+  </div>
+</nav>
+<div class="wrap" id="top">
   <header>
     <img class="logo" src="avatar.png" alt="pixel.by.pixel.art moon logo" width="88" height="88">
     <h1 class="pixel">Pixel Wallpapers</h1>
@@ -258,16 +297,22 @@
 
   <section class="free" id="free" aria-labelledby="free-title" hidden></section>
 
-  <h2 class="section-title pixel">Collections</h2>
-  <p class="section-sub">Six scenes each, sized for phone, tablet and desktop. Tap any scene to try it on your screen.</p>
+  <h2 class="section-title pixel" id="collections">Collections</h2>
+  <p class="section-sub">Six scenes each, sized for phone, tablet and desktop, grouped by season, newest first. Tap any scene to try it on your screen.</p>
   <div id="packs"></div>
 
-  <h2 class="section-title pixel">Good to know</h2>
+  <section class="subscribe" id="subscribe" aria-labelledby="subscribe-title">
+    <h2 id="subscribe-title" class="pixel">Next collection drops <span id="next-drop">Monday</span></h2>
+    <p>A new set of six scenes every Monday, themed for the season. Subscribe and we'll email you when a new collection drops. No spam, unsubscribe any time.</p>
+    <a class="btn" href="https://pixelbypixelart.gumroad.com/subscribe" target="_blank" rel="noopener">Subscribe for new drops</a>
+  </section>
+
+  <h2 class="section-title pixel" id="faq">Good to know</h2>
   <div class="faq">
     <div><h4>What do I get?</h4><p>Every scene in four sizes: phone (1280×2780), tablet (2048×2720), desktop (3840×2160, 4K) and the original square (1080×1080). Instant download after checkout.</p></div>
     <div><h4>Will it fit my device?</h4><p>Yes. iPhone, Android, iPad, Android tablets, Mac and PC. Your device crops to fit, and on phones the sky at the top leaves room for the clock.</p></div>
     <div><h4>How do I pay?</h4><p>Secure checkout with card, Apple Pay or PayPal. Right after paying you get your download, and the link is emailed to you so you can download again any time.</p></div>
-    <div><h4>Can I try before buying?</h4><p>Yes. Tap any scene to see it on a phone, tablet or desktop screen, and download today's free wallpaper (a different scene every day) to try a full-quality one on your own device.</p></div>
+    <div><h4>Can I try before buying?</h4><p>Yes. Tap any scene to see it on a phone, tablet or desktop screen, and download today's free wallpaper (free for one day only, then a different scene takes its place) to try a full-quality one on your own device.</p></div>
     <div><h4>How is it made?</h4><p>The scenes are AI-generated pixel art. We pick the ideas, check every image, and prepare them as wallpapers. That's why every post says "Made with AI."</p></div>
     <div><h4>Can I share them?</h4><p>They're for your own devices and prints for your own home. Please don't resell or share the files. Previews here are watermarked.</p></div>
   </div>
@@ -363,7 +408,10 @@
       </button>`).join("");
 
     const packsEl = document.getElementById("packs");
-    packsEl.innerHTML = S.packs.map((p, i) => `
+    // group by season (newest season and newest pack first); data-pack keeps the index into S.packs
+    const order = S.packs.map((p, i) => [p, i]).reverse();
+    const seasons = [...new Set(order.map(([p]) => p.season || "Collections"))];
+    const packHtml = ([p, i]) => `
       <article class="pack" id="${esc(p.id)}">
         <div class="pack-head">
           <div><h3>${esc(p.name)}</h3><div class="meta">6 scenes · phone, tablet & desktop + square originals</div></div>
@@ -373,7 +421,10 @@
           ${DEVICES.map(([d, label]) => `<button type="button" data-pack="${i}" data-device="${d}" aria-pressed="${d === "phone"}">${label}</button>`).join("")}
         </div>
         <div class="strip" data-device="phone">${tiles(p, "phone")}</div>
-      </article>`).join("");
+      </article>`;
+    packsEl.innerHTML = seasons.map(sn => `
+      <h3 class="season-title pixel">${esc(sn)}</h3>
+      ${order.filter(([p]) => (p.season || "Collections") === sn).map(packHtml).join("")}`).join("");
 
     packsEl.addEventListener("click", e => {
       const sw = e.target.closest(".devices button");
@@ -420,20 +471,35 @@
       if (t) openViewer(t.dataset.file, t.dataset.title, t.dataset.device);
     });
 
+    // ---- next drop: collections come out every Monday (Pacific time)
+    {
+      const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Los_Angeles" }));
+      const d = new Date(now); d.setDate(now.getDate() + ((8 - now.getDay()) % 7 || 7));
+      document.getElementById("next-drop").textContent = now.getDay() === 1 ? "today"
+        : d.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+    }
+
     // ---- free sample: one image per device, from the store server or from free/ on a static host
     const f = CFG ? S.freebie : S.freeSample;
     if (f && (CFG || f.files)) {
       const free = document.getElementById("free");
       const links = ["phone", "tablet", "desktop"].map(d =>
         `<a class="btn ghost" href="${CFG ? `/api/free/${d}` : esc(f.files[d])}" download>${d[0].toUpperCase() + d.slice(1)}</a>`).join("");
+      // the pack this scene comes from, so the free download can point at the rest of its set
+      const home = S.packs.find(p => p.scenes.some(([file]) => file === f.scene));
+      const upsell = home ? `
+          <p class="upsell">Like it? It's one of the six scenes in <a href="#${esc(home.id)}">${esc(home.name)}</a>.
+            Get the whole set for ${fmt(home.price)}, or all ${S.packs.length * 6} scenes for ${fmt(S.bundle.price)}.</p>
+          <div class="dl">${buy(home, `Get all 6 · ${fmt(home.price)}`)}</div>` : "";
       free.innerHTML = `
         <button class="thumb" type="button" aria-label="Try ${esc(f.title)} on a screen">
           <img src="${CFG ? `previews/${esc(f.scene)}_phone.png` : `free/thumb.png?${encodeURIComponent(f.scene)}`}" alt="${esc(f.title)} wallpaper" width="110">
         </button>
         <div>
-          <h2 id="free-title" class="pixel">Today's free wallpaper</h2>
-          <p>A different scene is free every day. Today it's ${esc(f.title)}, full quality, for phone, tablet and desktop. No email, no checkout.</p>
-          <div class="dl">${links}</div>
+          <h2 id="free-title" class="pixel">Free today only</h2>
+          <p>Today it's ${esc(f.title)}, full quality, for phone, tablet and desktop. No email, no checkout.
+            Tomorrow morning a different scene takes its place.</p>
+          <div class="dl">${links}</div>${upsell}
         </div>`;
       free.querySelector(".thumb").addEventListener("click", () => openViewer(f.scene, f.title, "phone"));
       free.hidden = false;

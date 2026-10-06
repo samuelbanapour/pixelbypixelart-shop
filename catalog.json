@@ -66,7 +66,8 @@
           "Snowy Cabin"
         ]
       ],
-      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-1-night-classics"
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-1-night-classics",
+      "season": "Summer 2026"
     },
     {
       "id": "week2",
@@ -99,7 +100,8 @@
           "Lighthouse"
         ]
       ],
-      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-2-far-horizons"
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-2-far-horizons",
+      "season": "Summer 2026"
     },
     {
       "id": "week3",
@@ -132,7 +134,8 @@
           "Floating Islands"
         ]
       ],
-      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-3-cozy-season"
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-3-cozy-season",
+      "season": "Fall 2026"
     },
     {
       "id": "week4",
@@ -165,7 +168,8 @@
           "Campfire"
         ]
       ],
-      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-4-morning-to-midnight"
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-4-morning-to-midnight",
+      "season": "Fall 2026"
     },
     {
       "id": "week5",
@@ -198,7 +202,8 @@
           "Foggy Graveyard"
         ]
       ],
-      "gumroad": "https://pixelbypixelart.gumroad.com/l/haunted-hollow"
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/haunted-hollow",
+      "season": "Fall 2026"
     }
   ]
 }
