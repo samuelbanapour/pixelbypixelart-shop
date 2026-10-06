@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week3",
-    "scene": "w3_post3_koi",
-    "title": "Koi Pond",
-    "blurb": "Try one before you buy: today's Koi Pond scene, free, full quality, for phone, tablet and desktop."
+    "week": "week4",
+    "scene": "w4_post6_campfire",
+    "title": "Campfire",
+    "blurb": "Try one before you buy: today's Campfire scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w3_post3_koi",
-    "title": "Koi Pond",
+    "scene": "w4_post6_campfire",
+    "title": "Campfire",
     "files": {
-      "phone": "free/pixel.by.pixel.art_koi_pond_phone.png",
-      "tablet": "free/pixel.by.pixel.art_koi_pond_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_koi_pond_desktop.png"
+      "phone": "free/pixel.by.pixel.art_campfire_phone.png",
+      "tablet": "free/pixel.by.pixel.art_campfire_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_campfire_desktop.png"
     },
-    "day": "2026-10-05"
+    "day": "2026-10-06"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
