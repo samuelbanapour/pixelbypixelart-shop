@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signing in… · Pixel by Pixel Art</title>
+<style>body{margin:0;background:#16102a;color:#f2eefc;font:16px/1.6 system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;padding:16px}</style>
+</head><body>
+<p id="m">Finishing sign-in…</p>
+<script>
+// OAuth return page for the owner's own local tools: hands the code to the script
+// waiting on this computer. Nothing is stored or sent anywhere else.
+var q = location.search;
+if (q.indexOf("code=") > -1 || q.indexOf("error=") > -1) {
+  location.replace("http://localhost:8086/" + q);
+} else {
+  document.getElementById("m").textContent = "Nothing to do here.";
+}
+</script>
+</body></html>
