@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week5",
-    "scene": "w5_post3_scarecrow",
-    "title": "Scarecrow Field",
-    "blurb": "Try one before you buy: today's Scarecrow Field scene, free, full quality, for phone, tablet and desktop."
+    "week": "week3",
+    "scene": "w3_post2_station",
+    "title": "Dusk Station",
+    "blurb": "Try one before you buy: today's Dusk Station scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w5_post3_scarecrow",
-    "title": "Scarecrow Field",
+    "scene": "w3_post2_station",
+    "title": "Dusk Station",
     "files": {
-      "phone": "free/pixel.by.pixel.art_scarecrow_field_phone.png",
-      "tablet": "free/pixel.by.pixel.art_scarecrow_field_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_scarecrow_field_desktop.png"
+      "phone": "free/pixel.by.pixel.art_dusk_station_phone.png",
+      "tablet": "free/pixel.by.pixel.art_dusk_station_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_dusk_station_desktop.png"
     },
-    "day": "2026-10-08"
+    "day": "2026-10-09"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
