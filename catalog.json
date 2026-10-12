@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 1500,
+    "was": 1800,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -204,6 +204,40 @@
       ],
       "gumroad": "https://pixelbypixelart.gumroad.com/l/haunted-hollow",
       "season": "Fall 2026"
+    },
+    {
+      "id": "week6",
+      "name": "Moonlit Mist",
+      "price": 300,
+      "zip": "week6_pack.zip",
+      "scenes": [
+        [
+          "w6_post1_ruinedtower",
+          "Ruined Tower"
+        ],
+        [
+          "w6_post2_hayride",
+          "Autumn Hayride"
+        ],
+        [
+          "w6_post3_stormlighthouse",
+          "Storm Lighthouse"
+        ],
+        [
+          "w6_post4_witchsunset",
+          "Witch at Sunset"
+        ],
+        [
+          "w6_post5_coveredbridge",
+          "Covered Bridge"
+        ],
+        [
+          "w6_post6_swamp",
+          "Wisp Swamp"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/moonlit-mist"
     }
   ]
 }
