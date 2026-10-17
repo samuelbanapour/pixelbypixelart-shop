@@ -5,19 +5,19 @@
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
     "week": "week5",
-    "scene": "w5_post5_porch",
-    "title": "Pumpkin Porch",
-    "blurb": "Try one before you buy: today's Pumpkin Porch scene, free, full quality, for phone, tablet and desktop."
+    "scene": "w5_post4_candyshop",
+    "title": "Candy Shop",
+    "blurb": "Try one before you buy: today's Candy Shop scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w5_post5_porch",
-    "title": "Pumpkin Porch",
+    "scene": "w5_post4_candyshop",
+    "title": "Candy Shop",
     "files": {
-      "phone": "free/pixel.by.pixel.art_pumpkin_porch_phone.png",
-      "tablet": "free/pixel.by.pixel.art_pumpkin_porch_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_pumpkin_porch_desktop.png"
+      "phone": "free/pixel.by.pixel.art_candy_shop_phone.png",
+      "tablet": "free/pixel.by.pixel.art_candy_shop_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_candy_shop_desktop.png"
     },
-    "day": "2026-10-16"
+    "day": "2026-10-17"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
