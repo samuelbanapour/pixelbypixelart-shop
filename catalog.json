@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week5",
-    "scene": "w5_post4_candyshop",
-    "title": "Candy Shop",
-    "blurb": "Try one before you buy: today's Candy Shop scene, free, full quality, for phone, tablet and desktop."
+    "week": "week6",
+    "scene": "w6_post2_hayride",
+    "title": "Autumn Hayride",
+    "blurb": "Try one before you buy: today's Autumn Hayride scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w5_post4_candyshop",
-    "title": "Candy Shop",
+    "scene": "w6_post2_hayride",
+    "title": "Autumn Hayride",
     "files": {
-      "phone": "free/pixel.by.pixel.art_candy_shop_phone.png",
-      "tablet": "free/pixel.by.pixel.art_candy_shop_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_candy_shop_desktop.png"
+      "phone": "free/pixel.by.pixel.art_autumn_hayride_phone.png",
+      "tablet": "free/pixel.by.pixel.art_autumn_hayride_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_autumn_hayride_desktop.png"
     },
-    "day": "2026-10-17"
+    "day": "2026-10-18"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
