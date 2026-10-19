@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 1800,
+    "was": 2100,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -238,6 +238,40 @@
       ],
       "season": "Fall 2026",
       "gumroad": "https://pixelbypixelart.gumroad.com/l/moonlit-mist"
+    },
+    {
+      "id": "week7",
+      "name": "Witching Hour",
+      "price": 300,
+      "zip": "week7_pack.zip",
+      "scenes": [
+        [
+          "w7_post1_ghostship",
+          "Ghost Ship Cove"
+        ],
+        [
+          "w7_post2_lanternlane",
+          "Lantern Lane"
+        ],
+        [
+          "w7_post3_carnival",
+          "Midnight Carnival"
+        ],
+        [
+          "w7_post4_blackcat",
+          "Moonlit Cat"
+        ],
+        [
+          "w7_post5_owlvalley",
+          "Owl Valley"
+        ],
+        [
+          "w7_post6_foxtrail",
+          "Foggy Fox Trail"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/witching-hour"
     }
   ]
 }
