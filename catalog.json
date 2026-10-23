@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week5",
-    "scene": "w5_post1_witchcottage",
-    "title": "Witch's Cottage",
-    "blurb": "Try one before you buy: today's Witch's Cottage scene, free, full quality, for phone, tablet and desktop."
+    "week": "week6",
+    "scene": "w6_post5_coveredbridge",
+    "title": "Covered Bridge",
+    "blurb": "Try one before you buy: today's Covered Bridge scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w5_post1_witchcottage",
-    "title": "Witch's Cottage",
+    "scene": "w6_post5_coveredbridge",
+    "title": "Covered Bridge",
     "files": {
-      "phone": "free/pixel.by.pixel.art_witch_s_cottage_phone.png",
-      "tablet": "free/pixel.by.pixel.art_witch_s_cottage_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_witch_s_cottage_desktop.png"
+      "phone": "free/pixel.by.pixel.art_covered_bridge_phone.png",
+      "tablet": "free/pixel.by.pixel.art_covered_bridge_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_covered_bridge_desktop.png"
     },
-    "day": "2026-10-22"
+    "day": "2026-10-23"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
