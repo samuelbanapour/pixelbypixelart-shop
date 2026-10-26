@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week1",
-    "scene": "post3_ocean",
-    "title": "Moonlit Sail",
-    "blurb": "Try one before you buy: today's Moonlit Sail scene, free, full quality, for phone, tablet and desktop."
+    "week": "week7",
+    "scene": "w7_post6_foxtrail",
+    "title": "Foggy Fox Trail",
+    "blurb": "Try one before you buy: today's Foggy Fox Trail scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "post3_ocean",
-    "title": "Moonlit Sail",
+    "scene": "w7_post6_foxtrail",
+    "title": "Foggy Fox Trail",
     "files": {
-      "phone": "free/pixel.by.pixel.art_moonlit_sail_phone.png",
-      "tablet": "free/pixel.by.pixel.art_moonlit_sail_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_moonlit_sail_desktop.png"
+      "phone": "free/pixel.by.pixel.art_foggy_fox_trail_phone.png",
+      "tablet": "free/pixel.by.pixel.art_foggy_fox_trail_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_foggy_fox_trail_desktop.png"
     },
-    "day": "2026-10-25"
+    "day": "2026-10-26"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
