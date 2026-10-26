@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 2100,
+    "was": 2400,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -272,6 +272,40 @@
       ],
       "season": "Fall 2026",
       "gumroad": "https://pixelbypixelart.gumroad.com/l/witching-hour"
+    },
+    {
+      "id": "week8",
+      "name": "Halloween Eve",
+      "price": 300,
+      "zip": "week8_pack.zip",
+      "scenes": [
+        [
+          "w8_post1_wolfmoon",
+          "Wolf Moon"
+        ],
+        [
+          "w8_post2_treehouse",
+          "Treehouse Party"
+        ],
+        [
+          "w8_post3_cauldron",
+          "Witch's Cauldron"
+        ],
+        [
+          "w8_post4_ghostpicnic",
+          "Ghost Picnic"
+        ],
+        [
+          "w8_post5_spiderweb",
+          "Moonlit Web"
+        ],
+        [
+          "w8_post6_applebob",
+          "Apple Bobbing"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/halloween-eve"
     }
   ]
 }
