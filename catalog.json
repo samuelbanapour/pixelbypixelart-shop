@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week6",
-    "scene": "w6_post1_ruinedtower",
-    "title": "Ruined Tower",
-    "blurb": "Try one before you buy: today's Ruined Tower scene, free, full quality, for phone, tablet and desktop."
+    "week": "week7",
+    "scene": "w7_post3_carnival",
+    "title": "Midnight Carnival",
+    "blurb": "Try one before you buy: today's Midnight Carnival scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w6_post1_ruinedtower",
-    "title": "Ruined Tower",
+    "scene": "w7_post3_carnival",
+    "title": "Midnight Carnival",
     "files": {
-      "phone": "free/pixel.by.pixel.art_ruined_tower_phone.png",
-      "tablet": "free/pixel.by.pixel.art_ruined_tower_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_ruined_tower_desktop.png"
+      "phone": "free/pixel.by.pixel.art_midnight_carnival_phone.png",
+      "tablet": "free/pixel.by.pixel.art_midnight_carnival_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_midnight_carnival_desktop.png"
     },
-    "day": "2026-10-29"
+    "day": "2026-10-30"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
