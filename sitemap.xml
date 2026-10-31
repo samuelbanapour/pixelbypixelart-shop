@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://pixelbypixelart.shop/</loc><lastmod>2026-10-30</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://pixelbypixelart.shop/privacy.html</loc><lastmod>2026-10-30</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
-  <url><loc>https://pixelbypixelart.shop/terms.html</loc><lastmod>2026-10-30</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://pixelbypixelart.shop/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/complete-collection.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/cozy-season.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/far-horizons.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/halloween-eve.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/haunted-hollow.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/moonlit-mist.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/morning-to-midnight.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/night-classics.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/collections/witching-hour.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/guides/how-to-set-pixel-art-wallpaper.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/halloween-pixel-art-wallpapers.html</loc><lastmod>2026-10-31</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixelbypixelart.shop/privacy.html</loc><lastmod>2026-10-31</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://pixelbypixelart.shop/terms.html</loc><lastmod>2026-10-31</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
 </urlset>

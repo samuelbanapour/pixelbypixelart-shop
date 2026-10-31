@@ -4,17 +4,21 @@
 
 ## Shop
 - [Wallpaper shop](https://pixelbypixelart.shop/): every collection with previews, prices and today's free wallpaper
-- [The Complete Collection](https://pixelbypixelart.gumroad.com/l/complete-collection): every scene so far, $8.00, updated with each new collection
+- [The Complete Collection](https://pixelbypixelart.shop/collections/complete-collection.html): every scene so far, $8.00, updated with each new collection ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/complete-collection))
+- [Halloween pixel art wallpapers](https://pixelbypixelart.shop/halloween-pixel-art-wallpapers.html): the four Halloween collections
 
 ## Collections
-- [Halloween Eve](https://pixelbypixelart.gumroad.com/l/halloween-eve): $3.00, Wolf Moon, Treehouse Party, Witch's Cauldron, Ghost Picnic, Moonlit Web, Apple Bobbing
-- [Witching Hour](https://pixelbypixelart.gumroad.com/l/witching-hour): $3.00, Ghost Ship Cove, Lantern Lane, Midnight Carnival, Moonlit Cat, Owl Valley, Foggy Fox Trail
-- [Moonlit Mist](https://pixelbypixelart.gumroad.com/l/moonlit-mist): $3.00, Ruined Tower, Autumn Hayride, Storm Lighthouse, Witch at Sunset, Covered Bridge, Wisp Swamp
-- [Haunted Hollow](https://pixelbypixelart.gumroad.com/l/haunted-hollow): $3.00, Witch's Cottage, Haunted House, Scarecrow Field, Candy Shop, Pumpkin Porch, Foggy Graveyard
-- [Morning to Midnight](https://pixelbypixelart.gumroad.com/l/week-4-morning-to-midnight): $3.00, Mountain Village, Windmill Harvest, Coral Reef, Snowy Peak, Cliff Castle, Campfire
-- [Cozy Season](https://pixelbypixelart.gumroad.com/l/week-3-cozy-season): $3.00, Mushroom Forest, Dusk Station, Koi Pond, Rainy Café, Pumpkin Patch, Floating Islands
-- [Far Horizons](https://pixelbypixelart.gumroad.com/l/week-2-far-horizons): $3.00, Aurora, Beach Sunset, Ringed Planet, Neon Rain, Autumn Hills, Lighthouse
-- [Night Classics](https://pixelbypixelart.gumroad.com/l/week-1-night-classics): $3.00, Sunrise Mountains, Desert Night, Moonlit Sail, Firefly Forest, City Lights, Snowy Cabin
+- [Halloween Eve](https://pixelbypixelart.shop/collections/halloween-eve.html): $3.00, Wolf Moon, Treehouse Party, Witch's Cauldron, Ghost Picnic, Moonlit Web, Apple Bobbing ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/halloween-eve))
+- [Witching Hour](https://pixelbypixelart.shop/collections/witching-hour.html): $3.00, Ghost Ship Cove, Lantern Lane, Midnight Carnival, Moonlit Cat, Owl Valley, Foggy Fox Trail ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/witching-hour))
+- [Moonlit Mist](https://pixelbypixelart.shop/collections/moonlit-mist.html): $3.00, Ruined Tower, Autumn Hayride, Storm Lighthouse, Witch at Sunset, Covered Bridge, Wisp Swamp ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/moonlit-mist))
+- [Haunted Hollow](https://pixelbypixelart.shop/collections/haunted-hollow.html): $3.00, Witch's Cottage, Haunted House, Scarecrow Field, Candy Shop, Pumpkin Porch, Foggy Graveyard ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/haunted-hollow))
+- [Morning to Midnight](https://pixelbypixelart.shop/collections/morning-to-midnight.html): $3.00, Mountain Village, Windmill Harvest, Coral Reef, Snowy Peak, Cliff Castle, Campfire ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/week-4-morning-to-midnight))
+- [Cozy Season](https://pixelbypixelart.shop/collections/cozy-season.html): $3.00, Mushroom Forest, Dusk Station, Koi Pond, Rainy Café, Pumpkin Patch, Floating Islands ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/week-3-cozy-season))
+- [Far Horizons](https://pixelbypixelart.shop/collections/far-horizons.html): $3.00, Aurora, Beach Sunset, Ringed Planet, Neon Rain, Autumn Hills, Lighthouse ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/week-2-far-horizons))
+- [Night Classics](https://pixelbypixelart.shop/collections/night-classics.html): $3.00, Sunrise Mountains, Desert Night, Moonlit Sail, Firefly Forest, City Lights, Snowy Cabin ([buy on Gumroad](https://pixelbypixelart.gumroad.com/l/week-1-night-classics))
+
+## Guides
+- [How to set a pixel art wallpaper](https://pixelbypixelart.shop/guides/how-to-set-pixel-art-wallpaper.html): iPhone, Android, iPad, Mac and Windows steps, which size to use, and keeping pixel art crisp
 
 ## Details
 - Sizes: phone 1280x2780, tablet 2048x2720, desktop 3840x2160 (4K), original square 1080x1080
