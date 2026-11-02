@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 2400,
+    "was": 2700,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -306,6 +306,40 @@
       ],
       "season": "Fall 2026",
       "gumroad": "https://pixelbypixelart.gumroad.com/l/halloween-eve"
+    },
+    {
+      "id": "week9",
+      "name": "Harvest Moon",
+      "price": 300,
+      "zip": "week9_pack.zip",
+      "scenes": [
+        [
+          "w9_post1_barnmoon",
+          "Harvest Moon Barn"
+        ],
+        [
+          "w9_post2_orchard",
+          "Apple Orchard"
+        ],
+        [
+          "w9_post3_maplestreet",
+          "Rainy Maple Street"
+        ],
+        [
+          "w9_post4_library",
+          "Cozy Library"
+        ],
+        [
+          "w9_post5_geese",
+          "Geese Over the Lake"
+        ],
+        [
+          "w9_post6_pie",
+          "Pie on the Windowsill"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/harvest-moon"
     }
   ]
 }
