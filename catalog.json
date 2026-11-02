@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week4",
-    "scene": "w4_post3_reef",
-    "title": "Coral Reef",
-    "blurb": "Try one before you buy: today's Coral Reef scene, free, full quality, for phone, tablet and desktop."
+    "week": "week2",
+    "scene": "w2_post2_beach",
+    "title": "Beach Sunset",
+    "blurb": "Try one before you buy: today's Beach Sunset scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w4_post3_reef",
-    "title": "Coral Reef",
+    "scene": "w2_post2_beach",
+    "title": "Beach Sunset",
     "files": {
-      "phone": "free/pixel.by.pixel.art_coral_reef_phone.png",
-      "tablet": "free/pixel.by.pixel.art_coral_reef_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_coral_reef_desktop.png"
+      "phone": "free/pixel.by.pixel.art_beach_sunset_phone.png",
+      "tablet": "free/pixel.by.pixel.art_beach_sunset_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_beach_sunset_desktop.png"
     },
-    "day": "2026-11-01"
+    "day": "2026-11-02"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
