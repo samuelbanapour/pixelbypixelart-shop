@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 2700,
+    "was": 3000,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -340,6 +340,40 @@
       ],
       "season": "Fall 2026",
       "gumroad": "https://pixelbypixelart.gumroad.com/l/harvest-moon"
+    },
+    {
+      "id": "week10",
+      "name": "Last Leaves",
+      "price": 300,
+      "zip": "week10_pack.zip",
+      "scenes": [
+        [
+          "w10_post1_balloons",
+          "Balloons Over the Valley"
+        ],
+        [
+          "w10_post2_viaduct",
+          "Steam Train Viaduct"
+        ],
+        [
+          "w10_post3_hedgehog",
+          "Hedgehog in the Leaves"
+        ],
+        [
+          "w10_post4_chestnuts",
+          "Chestnut Cart at Night"
+        ],
+        [
+          "w10_post5_burrow",
+          "Hillside Burrow Home"
+        ],
+        [
+          "w10_post6_observatory",
+          "Meteor Night Observatory"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/last-leaves"
     }
   ]
 }
