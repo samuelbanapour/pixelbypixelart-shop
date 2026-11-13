@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week7",
-    "scene": "w7_post5_owlvalley",
-    "title": "Owl Valley",
-    "blurb": "Try one before you buy: today's Owl Valley scene, free, full quality, for phone, tablet and desktop."
+    "week": "week5",
+    "scene": "w5_post3_scarecrow",
+    "title": "Scarecrow Field",
+    "blurb": "Try one before you buy: today's Scarecrow Field scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w7_post5_owlvalley",
-    "title": "Owl Valley",
+    "scene": "w5_post3_scarecrow",
+    "title": "Scarecrow Field",
     "files": {
-      "phone": "free/pixel.by.pixel.art_owl_valley_phone.png",
-      "tablet": "free/pixel.by.pixel.art_owl_valley_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_owl_valley_desktop.png"
+      "phone": "free/pixel.by.pixel.art_scarecrow_field_phone.png",
+      "tablet": "free/pixel.by.pixel.art_scarecrow_field_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_scarecrow_field_desktop.png"
     },
-    "day": "2026-11-12"
+    "day": "2026-11-13"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
