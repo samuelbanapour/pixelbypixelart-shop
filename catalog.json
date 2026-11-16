@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 3000,
+    "was": 3300,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -374,6 +374,40 @@
       ],
       "season": "Fall 2026",
       "gumroad": "https://pixelbypixelart.gumroad.com/l/last-leaves"
+    },
+    {
+      "id": "week11",
+      "name": "First Frost",
+      "price": 300,
+      "zip": "week11_pack.zip",
+      "scenes": [
+        [
+          "w11_post1_cranberries",
+          "Cranberry Harvest"
+        ],
+        [
+          "w11_post2_mouse",
+          "Lantern Mouse"
+        ],
+        [
+          "w11_post3_canal",
+          "Canal at Dusk"
+        ],
+        [
+          "w11_post4_bakery",
+          "Bakery at Dawn"
+        ],
+        [
+          "w11_post5_larches",
+          "Golden Larches"
+        ],
+        [
+          "w11_post6_frostdeer",
+          "Frosty Meadow Deer"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/first-frost"
     }
   ]
 }
