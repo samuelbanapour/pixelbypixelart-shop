@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="referrer" content="no-referrer">
+<title>Your Wallpapers · pixel.by.pixel.art</title>
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #100c24; --bg-2: #1b1538; --card: #211a44; --line: #3a2f6e; --text: #efeaff; --muted: #a99fd0;
+          --yellow: #ffd65a; --pink: #ff5078; --cyan: #5adce6; --shadow: #07051a; --radius: 14px; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: linear-gradient(180deg, #100c24, #1b1240 60%, #100c24); color: var(--text);
+         font: 16px/1.55 "Space Grotesk", system-ui, -apple-system, sans-serif; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 40px 16px 60px; }
+  .pixel { font-family: "Silkscreen", monospace; }
+  .logo { width: 64px; height: 64px; border-radius: 50%; image-rendering: pixelated; border: 3px solid var(--line); display: block; }
+  h1 { margin: 18px 0 6px; font-size: clamp(24px, 6vw, 34px); line-height: 1.15; color: var(--yellow); text-shadow: 3px 3px 0 var(--shadow); }
+  .lead { color: var(--muted); margin: 0 0 22px; }
+  .tag { display: inline-block; font-size: 12px; padding: 3px 8px; background: var(--yellow); color: #2a1a00; margin-bottom: 10px; }
+  .note { background: var(--bg-2); border: 1px dashed var(--line); border-radius: var(--radius); padding: 14px 16px; color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+  .note b { color: var(--text); font-weight: 500; }
+  ul { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 10px; }
+  li { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+       background: var(--card); border: 2px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+  li .name { font-weight: 700; }
+  li .size { color: var(--muted); font-size: 14px; }
+  li.all { border-color: var(--yellow); }
+  .btn { display: inline-flex; align-items: center; gap: 8px; font-family: "Silkscreen", monospace; font-size: 14px; text-decoration: none;
+         padding: 10px 14px; background: var(--pink); color: #fff; white-space: nowrap;
+         box-shadow: 4px 4px 0 var(--shadow), inset -3px -3px 0 #c42d55, inset 3px 3px 0 #ff86a2; }
+  .btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--shadow); }
+  .btn:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
+  .fine { color: var(--muted); font-size: 14px; }
+  a { color: var(--pink); }
+  .error { color: var(--yellow); }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <img class="logo" src="avatar.png" alt="pixel.by.pixel.art moon logo" width="64" height="64">
+  <div id="app"><h1 class="pixel">Loading…</h1><p class="lead" role="status">Finding your wallpapers.</p></div>
+</main>
+<script>
+  const app = document.getElementById("app");
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const mb = n => n >= 1e6 ? (n / 1e6).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1e3)) + " KB";
+
+  function problem(title, text) {
+    app.innerHTML = `<h1 class="pixel">${esc(title)}</h1><p class="lead error">${esc(text)}</p>
+      <p class="fine">If you paid and this keeps happening, message <a href="https://www.instagram.com/pixel.by.pixel.art/">@pixel.by.pixel.art</a> on Instagram and we'll sort it out.</p>`;
+  }
+
+  async function main() {
+    const q = new URLSearchParams(location.search);
+    let token = q.get("token");
+
+    // Coming back from Stripe: swap the checkout session for a library link.
+    if (!token && q.get("session_id")) {
+      const r = await fetch("/api/checkout/stripe/" + encodeURIComponent(q.get("session_id")));
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok) return problem("Almost there", d.error || "We couldn't confirm your payment yet. Refresh this page in a moment.");
+      token = d.token;
+      history.replaceState(null, "", "library.html?token=" + encodeURIComponent(token));
+    }
+    if (!token) return problem("No library link", "Open the link from your purchase to see your wallpapers.");
+
+    const r = await fetch("/api/library?token=" + encodeURIComponent(token));
+    const d = await r.json().catch(() => ({}));
+    if (!r.ok) return problem("Link not valid", d.error || "This library link isn't valid.");
+
+    const dl = f => `/api/download/${encodeURIComponent(f)}?token=${encodeURIComponent(token)}`;
+    app.innerHTML = `
+      ${d.mode !== "live" ? `<span class="tag pixel">${d.mode} purchase · not a real payment</span>` : ""}
+      <h1 class="pixel">Your wallpapers</h1>
+      <p class="lead">${esc(d.product.name)} · thank you for supporting pixel.by.pixel.art!</p>
+      <div class="note"><b>Bookmark this page.</b> This private link is how you download your wallpapers again${d.product.bundle
+        ? ", and <b>every new collection shows up here automatically</b>, so check back now and then" : ""}. Please don't share it.</div>
+      <ul>${d.files.map((f, i) => `
+        <li class="${d.product.bundle && i === 0 ? "all" : ""}">
+          <div><div class="name">${esc(f.name)}</div><div class="size">ZIP · ${mb(f.bytes)} · phone, tablet, desktop & square</div></div>
+          <a class="btn" href="${dl(f.file)}" download>Download</a>
+        </li>`).join("")}</ul>
+      <p class="fine">Each zip has phone (1280×2780), tablet (2048×2720), desktop (3840×2160) and square (1080×1080) folders.
+        These are AI-generated pixel art wallpapers for personal use on your own devices.</p>
+      <p class="fine"><a href="./">← Back to the shop</a></p>`;
+  }
+  main().catch(() => problem("Something went wrong", "Please refresh the page."));
+</script>
+</body>
+</html>

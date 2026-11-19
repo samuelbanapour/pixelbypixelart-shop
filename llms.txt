@@ -24,7 +24,7 @@
 - [How to set a pixel art wallpaper](https://pixelbypixelart.shop/guides/how-to-set-pixel-art-wallpaper.html): iPhone, Android, iPad, Mac and Windows steps, which size to use, and keeping pixel art crisp
 
 ## Details
-- Sizes: phone 1280x2780, tablet 2048x2720, desktop 3840x2160 (4K), original square 1080x1080
+- Sizes: phone 1280x2780, tablet 2048x2720, desktop 3840x2160 (4K), original square 1080x1080, plus exact sizes for every iPhone (including iPhone 17), iPad, Apple Watch, Mac and monitors up to 6K
 - Works on iPhone, Android, iPad, Android tablets, Mac and PC; instant download after checkout
 - Personal use on your own devices; AI-generated pixel art, every image checked by hand
 
