@@ -25,7 +25,7 @@
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
     "price": 800,
-    "was": 3300,
+    "was": 3600,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
@@ -408,6 +408,40 @@
       ],
       "season": "Fall 2026",
       "gumroad": "https://pixelbypixelart.gumroad.com/l/first-frost"
+    },
+    {
+      "id": "week12",
+      "name": "First Snowfall",
+      "price": 300,
+      "zip": "week12_pack.zip",
+      "scenes": [
+        [
+          "w12_post1_monkeys",
+          "Snow Monkey Hot Spring"
+        ],
+        [
+          "w12_post2_robin",
+          "Robin in the Snow"
+        ],
+        [
+          "w12_post3_tram",
+          "Snowy Night Tram"
+        ],
+        [
+          "w12_post4_sledding",
+          "Sledding Hill"
+        ],
+        [
+          "w12_post5_icehut",
+          "Ice Fishing Sunset"
+        ],
+        [
+          "w12_post6_redpanda",
+          "Red Panda in the Snow"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/first-snowfall"
     }
   ]
 }
