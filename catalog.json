@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week5",
-    "scene": "w5_post2_hauntedhouse",
-    "title": "Haunted House",
-    "blurb": "Try one before you buy: today's Haunted House scene, free, full quality, for phone, tablet and desktop."
+    "week": "week4",
+    "scene": "w4_post1_village",
+    "title": "Mountain Village",
+    "blurb": "Try one before you buy: today's Mountain Village scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w5_post2_hauntedhouse",
-    "title": "Haunted House",
+    "scene": "w4_post1_village",
+    "title": "Mountain Village",
     "files": {
-      "phone": "free/pixel.by.pixel.art_haunted_house_phone.png",
-      "tablet": "free/pixel.by.pixel.art_haunted_house_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_haunted_house_desktop.png"
+      "phone": "free/pixel.by.pixel.art_mountain_village_phone.png",
+      "tablet": "free/pixel.by.pixel.art_mountain_village_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_mountain_village_desktop.png"
     },
-    "day": "2026-11-25"
+    "day": "2026-11-26"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
