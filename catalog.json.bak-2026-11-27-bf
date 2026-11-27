@@ -1,0 +1,443 @@
+{
+  "currency": "usd",
+  "instagram": "https://www.instagram.com/pixel.by.pixel.art/",
+  "threads": "https://www.threads.net/@pixel.by.pixel.art",
+  "gumroadStore": "https://pixelbypixelart.gumroad.com/",
+  "freebie": {
+    "week": "week3",
+    "scene": "w3_post6_islands",
+    "title": "Floating Islands",
+    "blurb": "Try one before you buy: today's Floating Islands scene, free, full quality, for phone, tablet and desktop."
+  },
+  "freeSample": {
+    "scene": "w3_post6_islands",
+    "title": "Floating Islands",
+    "file": "free/pixel.by.pixel.art_free_floating_islands.zip",
+    "day": "2026-09-29"
+  },
+  "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
+  "bundle": {
+    "id": "bundle",
+    "name": "The Complete Collection",
+    "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
+    "price": 800,
+    "was": 3600,
+    "zip": "all_weeks_bundle.zip",
+    "covers": [
+      "w4_post6_campfire",
+      "w2_post1_aurora",
+      "w3_post1_mushroom"
+    ],
+    "gumroad": "https://pixelbypixelart.gumroad.com/l/complete-collection"
+  },
+  "packs": [
+    {
+      "id": "week1",
+      "name": "Night Classics",
+      "price": 300,
+      "zip": "week1_pack.zip",
+      "scenes": [
+        [
+          "post1_sunrise",
+          "Sunrise Mountains"
+        ],
+        [
+          "post2_desert",
+          "Desert Night"
+        ],
+        [
+          "post3_ocean",
+          "Moonlit Sail"
+        ],
+        [
+          "post4_forest",
+          "Firefly Forest"
+        ],
+        [
+          "post5_city",
+          "City Lights"
+        ],
+        [
+          "post6_cabin",
+          "Snowy Cabin"
+        ]
+      ],
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-1-night-classics",
+      "season": "Summer 2026"
+    },
+    {
+      "id": "week2",
+      "name": "Far Horizons",
+      "price": 300,
+      "zip": "week2_pack.zip",
+      "scenes": [
+        [
+          "w2_post1_aurora",
+          "Aurora"
+        ],
+        [
+          "w2_post2_beach",
+          "Beach Sunset"
+        ],
+        [
+          "w2_post3_planet",
+          "Ringed Planet"
+        ],
+        [
+          "w2_post4_rain",
+          "Neon Rain"
+        ],
+        [
+          "w2_post5_autumn",
+          "Autumn Hills"
+        ],
+        [
+          "w2_post6_lighthouse",
+          "Lighthouse"
+        ]
+      ],
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-2-far-horizons",
+      "season": "Summer 2026"
+    },
+    {
+      "id": "week3",
+      "name": "Cozy Season",
+      "price": 300,
+      "zip": "week3_pack.zip",
+      "scenes": [
+        [
+          "w3_post1_mushroom",
+          "Mushroom Forest"
+        ],
+        [
+          "w3_post2_station",
+          "Dusk Station"
+        ],
+        [
+          "w3_post3_koi",
+          "Koi Pond"
+        ],
+        [
+          "w3_post4_cafe",
+          "Rainy Café"
+        ],
+        [
+          "w3_post5_pumpkins",
+          "Pumpkin Patch"
+        ],
+        [
+          "w3_post6_islands",
+          "Floating Islands"
+        ]
+      ],
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-3-cozy-season",
+      "season": "Fall 2026"
+    },
+    {
+      "id": "week4",
+      "name": "Morning to Midnight",
+      "price": 300,
+      "zip": "week4_pack.zip",
+      "scenes": [
+        [
+          "w4_post1_village",
+          "Mountain Village"
+        ],
+        [
+          "w4_post2_windmill",
+          "Windmill Harvest"
+        ],
+        [
+          "w4_post3_reef",
+          "Coral Reef"
+        ],
+        [
+          "w4_post4_peak",
+          "Snowy Peak"
+        ],
+        [
+          "w4_post5_castle",
+          "Cliff Castle"
+        ],
+        [
+          "w4_post6_campfire",
+          "Campfire"
+        ]
+      ],
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/week-4-morning-to-midnight",
+      "season": "Fall 2026"
+    },
+    {
+      "id": "week5",
+      "name": "Haunted Hollow",
+      "price": 300,
+      "zip": "week5_pack.zip",
+      "scenes": [
+        [
+          "w5_post1_witchcottage",
+          "Witch's Cottage"
+        ],
+        [
+          "w5_post2_hauntedhouse",
+          "Haunted House"
+        ],
+        [
+          "w5_post3_scarecrow",
+          "Scarecrow Field"
+        ],
+        [
+          "w5_post4_candyshop",
+          "Candy Shop"
+        ],
+        [
+          "w5_post5_porch",
+          "Pumpkin Porch"
+        ],
+        [
+          "w5_post6_graveyard",
+          "Foggy Graveyard"
+        ]
+      ],
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/haunted-hollow",
+      "season": "Fall 2026"
+    },
+    {
+      "id": "week6",
+      "name": "Moonlit Mist",
+      "price": 300,
+      "zip": "week6_pack.zip",
+      "scenes": [
+        [
+          "w6_post1_ruinedtower",
+          "Ruined Tower"
+        ],
+        [
+          "w6_post2_hayride",
+          "Autumn Hayride"
+        ],
+        [
+          "w6_post3_stormlighthouse",
+          "Storm Lighthouse"
+        ],
+        [
+          "w6_post4_witchsunset",
+          "Witch at Sunset"
+        ],
+        [
+          "w6_post5_coveredbridge",
+          "Covered Bridge"
+        ],
+        [
+          "w6_post6_swamp",
+          "Wisp Swamp"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/moonlit-mist"
+    },
+    {
+      "id": "week7",
+      "name": "Witching Hour",
+      "price": 300,
+      "zip": "week7_pack.zip",
+      "scenes": [
+        [
+          "w7_post1_ghostship",
+          "Ghost Ship Cove"
+        ],
+        [
+          "w7_post2_lanternlane",
+          "Lantern Lane"
+        ],
+        [
+          "w7_post3_carnival",
+          "Midnight Carnival"
+        ],
+        [
+          "w7_post4_blackcat",
+          "Moonlit Cat"
+        ],
+        [
+          "w7_post5_owlvalley",
+          "Owl Valley"
+        ],
+        [
+          "w7_post6_foxtrail",
+          "Foggy Fox Trail"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/witching-hour"
+    },
+    {
+      "id": "week8",
+      "name": "Halloween Eve",
+      "price": 300,
+      "zip": "week8_pack.zip",
+      "scenes": [
+        [
+          "w8_post1_wolfmoon",
+          "Wolf Moon"
+        ],
+        [
+          "w8_post2_treehouse",
+          "Treehouse Party"
+        ],
+        [
+          "w8_post3_cauldron",
+          "Witch's Cauldron"
+        ],
+        [
+          "w8_post4_ghostpicnic",
+          "Ghost Picnic"
+        ],
+        [
+          "w8_post5_spiderweb",
+          "Moonlit Web"
+        ],
+        [
+          "w8_post6_applebob",
+          "Apple Bobbing"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/halloween-eve"
+    },
+    {
+      "id": "week9",
+      "name": "Harvest Moon",
+      "price": 300,
+      "zip": "week9_pack.zip",
+      "scenes": [
+        [
+          "w9_post1_barnmoon",
+          "Harvest Moon Barn"
+        ],
+        [
+          "w9_post2_orchard",
+          "Apple Orchard"
+        ],
+        [
+          "w9_post3_maplestreet",
+          "Rainy Maple Street"
+        ],
+        [
+          "w9_post4_library",
+          "Cozy Library"
+        ],
+        [
+          "w9_post5_geese",
+          "Geese Over the Lake"
+        ],
+        [
+          "w9_post6_pie",
+          "Pie on the Windowsill"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/harvest-moon"
+    },
+    {
+      "id": "week10",
+      "name": "Last Leaves",
+      "price": 300,
+      "zip": "week10_pack.zip",
+      "scenes": [
+        [
+          "w10_post1_balloons",
+          "Balloons Over the Valley"
+        ],
+        [
+          "w10_post2_viaduct",
+          "Steam Train Viaduct"
+        ],
+        [
+          "w10_post3_hedgehog",
+          "Hedgehog in the Leaves"
+        ],
+        [
+          "w10_post4_chestnuts",
+          "Chestnut Cart at Night"
+        ],
+        [
+          "w10_post5_burrow",
+          "Hillside Burrow Home"
+        ],
+        [
+          "w10_post6_observatory",
+          "Meteor Night Observatory"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/last-leaves"
+    },
+    {
+      "id": "week11",
+      "name": "First Frost",
+      "price": 300,
+      "zip": "week11_pack.zip",
+      "scenes": [
+        [
+          "w11_post1_cranberries",
+          "Cranberry Harvest"
+        ],
+        [
+          "w11_post2_mouse",
+          "Lantern Mouse"
+        ],
+        [
+          "w11_post3_canal",
+          "Canal at Dusk"
+        ],
+        [
+          "w11_post4_bakery",
+          "Bakery at Dawn"
+        ],
+        [
+          "w11_post5_larches",
+          "Golden Larches"
+        ],
+        [
+          "w11_post6_frostdeer",
+          "Frosty Meadow Deer"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/first-frost"
+    },
+    {
+      "id": "week12",
+      "name": "First Snowfall",
+      "price": 300,
+      "zip": "week12_pack.zip",
+      "scenes": [
+        [
+          "w12_post1_monkeys",
+          "Snow Monkey Hot Spring"
+        ],
+        [
+          "w12_post2_robin",
+          "Robin in the Snow"
+        ],
+        [
+          "w12_post3_tram",
+          "Snowy Night Tram"
+        ],
+        [
+          "w12_post4_sledding",
+          "Sledding Hill"
+        ],
+        [
+          "w12_post5_icehut",
+          "Ice Fishing Sunset"
+        ],
+        [
+          "w12_post6_redpanda",
+          "Red Panda in the Snow"
+        ]
+      ],
+      "season": "Fall 2026",
+      "gumroad": "https://pixelbypixelart.gumroad.com/l/first-snowfall"
+    }
+  ]
+}

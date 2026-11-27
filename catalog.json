@@ -24,15 +24,15 @@
     "id": "bundle",
     "name": "The Complete Collection",
     "blurb": "Every scene so far, for phone, tablet and desktop, plus the square originals. New collections are added as they come out, and they're included.",
-    "price": 800,
-    "was": 3600,
+    "price": 400,
+    "was": 800,
     "zip": "all_weeks_bundle.zip",
     "covers": [
       "w4_post6_campfire",
       "w2_post1_aurora",
       "w3_post1_mushroom"
     ],
-    "gumroad": "https://pixelbypixelart.gumroad.com/l/complete-collection"
+    "gumroad": "https://pixelbypixelart.gumroad.com/l/complete-collection/BLACKFRIDAY"
   },
   "packs": [
     {
