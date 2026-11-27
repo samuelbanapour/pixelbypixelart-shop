@@ -4,20 +4,20 @@
   "threads": "https://www.threads.net/@pixel.by.pixel.art",
   "gumroadStore": "https://pixelbypixelart.gumroad.com/",
   "freebie": {
-    "week": "week4",
-    "scene": "w4_post1_village",
-    "title": "Mountain Village",
-    "blurb": "Try one before you buy: today's Mountain Village scene, free, full quality, for phone, tablet and desktop."
+    "week": "week12",
+    "scene": "w12_post3_tram",
+    "title": "Snowy Night Tram",
+    "blurb": "Try one before you buy: today's Snowy Night Tram scene, free, full quality, for phone, tablet and desktop."
   },
   "freeSample": {
-    "scene": "w4_post1_village",
-    "title": "Mountain Village",
+    "scene": "w12_post3_tram",
+    "title": "Snowy Night Tram",
     "files": {
-      "phone": "free/pixel.by.pixel.art_mountain_village_phone.png",
-      "tablet": "free/pixel.by.pixel.art_mountain_village_tablet.png",
-      "desktop": "free/pixel.by.pixel.art_mountain_village_desktop.png"
+      "phone": "free/pixel.by.pixel.art_snowy_night_tram_phone.png",
+      "tablet": "free/pixel.by.pixel.art_snowy_night_tram_tablet.png",
+      "desktop": "free/pixel.by.pixel.art_snowy_night_tram_desktop.png"
     },
-    "day": "2026-11-26"
+    "day": "2026-11-27"
   },
   "_notes": "Prices are in cents (300 = $3.00). Optional per-product \"gumroad\": a Gumroad product link shown as an alternate way to buy.",
   "bundle": {
